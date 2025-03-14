@@ -1,10 +1,12 @@
 package pl.edu.pg.eti.ksg.po.lab1;
-import java.util.Scanner;
+
+import pl.edu.pg.eti.ksg.po.lab1.transformacje.Punkt;
 
 public class Javalab1 {
     public static void main(String[] args)
     {
-        A obj = new A(4);
-        System.out.println(obj.hashCode());
+        Punkt p1 = new Punkt(5, 6);
+        System.out.println(p1.toString());
+        System.out.println(p1.hashCode());
     }
 }
